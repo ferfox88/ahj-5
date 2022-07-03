@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+.popover-block {
+    position: relative;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 .2rem rgba(225, 83, 97, .5);
+}
+
+.btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.popover {
+    max-width: 276px;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    text-align: left;
+    padding: 5px;
+}
+
+.popover-header {
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+}
